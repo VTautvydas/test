@@ -14,8 +14,9 @@ public class Main {
         Session session = factory.openSession();
         Transaction transaction = (Transaction) session.beginTransaction();
 
-        Student student = new Student(5, "Romas", "Isgeres", "NPP");
         */
+
+        System.out.println("ASDf");
 
         StudentDao studentDao = new StudentDao();
         //Student petras = new Student(9,"Petras2", "2Petraitis", "KCS2");
